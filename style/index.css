@@ -79,7 +79,7 @@ header {
   position: absolute;
   width: calc(250 / 375 * 100vw);
   margin: auto;
-  top: calc(120 / 375 * 100vw);
+  top: calc(80 / 375 * 100vw);
   right: 0;
   left: 0;
   z-index: 2;
@@ -100,16 +100,15 @@ header {
 .all_container .mv img {
   display: block;
   width: 100%;
-  margin-top: -5rem;
 }
 
-.all_container .mv .under {
-  display: inline-block;
-  margin-top: calc(340 / 375 * 100vw);
-  margin-left: calc(50 / 375 * 100vw);
+.all_container .under {
+  position: relative;
+  margin: 3rem auto;
+  width: 30rem;
 }
 
-.all_container .mv .under a {
+.all_container .under a {
   text-decoration: none;
   color: #fff;
   font-size: 1.7rem;
@@ -125,38 +124,36 @@ header {
     font-size: 2.5rem;
   }
   .all_container .mv {
-    height: calc(720/1080*100vw);
+    height: calc(600/1080*100vw);
   }
   .all_container .mv .kaisai h3 {
     margin: auto;
     width: calc(350/1080*100vw);
-    top: calc(-100/1080*100vw);
+    top: calc(-141/1080*100vw);
     left: calc(200/1080*100vw);
   }
   .all_container .mv .logo {
     width: calc(550/1080*100vw);
-    top: calc(140/1080*100vw);
+    top: calc(90/1080*100vw);
+  }
+  .all_container .mv h1 {
+    margin-top: -7rem;
   }
   .all_container .mv h1::after {
     width: calc(160 / 1080 * 100vw);
     height: calc(190 / 1080 * 100vw);
     left: calc(450 / 1080 * 100vw);
-    bottom: calc(-80 / 1080 * 100vw);
+    bottom: calc(-60 / 1080 * 100vw);
   }
-  .all_container .mv .under {
-    display: inline-block;
-    margin-top: calc(1000 / 1920 * 100vw);
-    margin-left: calc(650 / 1920 * 100vw);
+  .all_container .under {
+    margin: -3rem auto;
+    width: 56.6rem;
   }
-  .all_container .mv .under a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 4rem;
+  .all_container .under a {
+    font-size: 3rem;
     font-weight: bold;
     background: #ff7176;
     padding: 4rem 6rem;
-    border-radius: 70px;
-    z-index: 1;
   }
 }
 
