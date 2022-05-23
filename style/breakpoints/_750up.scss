@@ -1,0 +1,46 @@
+header{
+    .menucont{
+        li{
+        font-size: 2.5rem;
+        }
+    }
+}
+.all_container{
+
+.mv{
+    height: calc(720/1080*100vw);
+
+    .kaisai{
+        h3{
+            margin: auto;
+            width: calc(350/1080*100vw);
+            top: calc(-141/1080*100vw);
+            left: calc(200/1080*100vw);
+        }
+    }
+    .logo{
+        width: calc(550/1080*100vw);
+        top: calc(90/1080*100vw);
+    }
+
+    h1::after{
+        width: calc(160 / 1080 * 100vw);
+        height: calc(190 / 1080 * 100vw);
+        left: calc(450 / 1080 * 100vw);
+        bottom: calc(-80 / 1080 * 100vw);
+    }
+
+    .under{
+        margin-top: calc(900 / 1920 * 100vw);
+        width: 72rem;
+
+        a{
+            font-size: 4rem;
+            font-weight: bold;
+            background: #ff7176;
+            padding: 4rem 6rem;
+        }
+    }
+
+}
+}

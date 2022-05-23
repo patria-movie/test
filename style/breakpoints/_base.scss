@@ -1,0 +1,122 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+background: $cblue;
+font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+margin: 0;
+overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, p{
+margin: 0;
+}
+
+h4{
+font-size: 2rem;
+margin-left: 2rem;
+}
+
+h6{
+font-size: 1.5rem;
+font-weight: normal;
+margin: 3rem 0 0 1rem;
+}
+
+ul, li{
+padding: 0;
+list-style: none;
+font-size: 1.5rem;
+}
+
+header{
+position: fixed;
+width: 100%;
+height: 6rem;
+background: #ff7176;
+z-index: 3;
+}
+
+
+.all_container{
+position: relative;
+color: $cBlack;
+
+.mv{
+position: relative;
+background-size: cover;
+background-position: center center;
+width: 100%;
+height: 100vw;
+top: 6rem;
+
+.kaisai{
+  padding-top: 8rem;
+
+  h3{
+    position: absolute;
+    background-image: url(../img/imouto.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: -1rem;
+    height: calc(120 / 375 * 100vw);
+    width: calc(240 / 375 * 100vw);
+    text-indent: -9999%;
+  }
+}
+
+.logo{
+  position: absolute;
+  width: calc(250 / 375 * 100vw);
+  margin: auto;
+  top: calc(80 / 375 * 100vw);
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+
+h1::after{
+  position: absolute;
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url(../img/otouto.png);
+  background-size: 100%;
+  width: calc(90 / 375 * 100vw);
+  height: calc(100 / 375 * 100vw);
+  left: calc(190 / 375 * 100vw);
+  bottom: calc(-49 / 375 * 100vw);
+}
+
+img{
+  display: block;
+  width: 100%;
+  margin-top: -5rem;
+}
+
+.under{
+  position: relative;
+  margin: 26rem auto 0 auto;
+  width: 30rem;
+
+  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: bold;
+    background: #ff7176;
+    padding: 2rem 2rem;
+    border-radius: 70px;
+    z-index: 1;
+  }
+}
+}
+}
