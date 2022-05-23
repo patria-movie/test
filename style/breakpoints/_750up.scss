@@ -8,7 +8,7 @@ header{
 .all_container{
 
 .mv{
-    height: calc(720/1080*100vw);
+    height: calc(600/1080*100vw);
 
     .kaisai{
         h3{
@@ -23,24 +23,28 @@ header{
         top: calc(90/1080*100vw);
     }
 
+    h1{
+        margin-top: -7rem;
+    }
+
     h1::after{
         width: calc(160 / 1080 * 100vw);
         height: calc(190 / 1080 * 100vw);
         left: calc(450 / 1080 * 100vw);
-        bottom: calc(-80 / 1080 * 100vw);
+        bottom: calc(-60 / 1080 * 100vw);
     }
+}
 
     .under{
-        margin-top: calc(900 / 1920 * 100vw);
-        width: 72rem;
+        margin: -3rem auto;
+        width: 56.6rem;
 
         a{
-            font-size: 4rem;
+            font-size: 3rem;
             font-weight: bold;
             background: #ff7176;
             padding: 4rem 6rem;
         }
     }
 
-}
 }
